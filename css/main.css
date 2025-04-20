@@ -113,6 +113,12 @@ body {
 	letter-spacing: 2px;
 }
 
+.personal_img{
+	width: 370px;
+    	height: 370px;
+    	object-fit: cover;
+}
+
 #site-header h1 a:focus {
     text-decoration: none;
 }
