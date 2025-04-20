@@ -569,6 +569,7 @@ pre code {
   }
 }
 
+
 @media (min-width: 768px) {
   .container {
     max-width: 720px;
@@ -2306,6 +2307,12 @@ textarea.form-control {
 
 .form-group {
   margin-bottom: 1rem;
+}
+
+.store-img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
 }
 
 .form-text {
