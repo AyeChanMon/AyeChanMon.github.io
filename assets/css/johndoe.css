@@ -11287,6 +11287,7 @@ p {
   overflow: hidden;
   margin: 0 15px 30px;
   height: 260px;
+  width: 100% !important;
 }
 
 .blog-card .img-holder {
