@@ -2312,7 +2312,7 @@ textarea.form-control {
 .store-img{
     width: 40px;
     height: 40px;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .form-text {
