@@ -1421,3 +1421,8 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+.store-img{
+  width: 30px;
+  height: 30px;
+}
