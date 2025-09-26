@@ -1428,19 +1428,34 @@ section,
 }
 
 .res_row {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px; /* spacing between main columns */
 }
 
 .res_col {
   flex: 1;
-  padding: 20px;
-  text-align: left;
 }
 
-/* Stack columns on small screens */
-@media (max-width: 600px) {
-  .res_col {
-    flex: 100%;
+.res_col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.res_col li {
+  display: grid;
+  grid-template-columns: 150px auto; /* label vs value */
+  align-items: start;
+  margin-bottom: 10px;
+}
+
+.res_col strong {
+  font-weight: 600;
+  color: #333;
+}
+
+.res_col span {
+  color: #555;
 }
     
