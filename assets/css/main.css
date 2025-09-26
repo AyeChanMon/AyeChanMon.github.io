@@ -1426,3 +1426,21 @@ section,
   width: 30px;
   height: 30px;
 }
+
+.res_row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.res_col {
+  flex: 1;
+  padding: 20px;
+  text-align: left;
+}
+
+/* Stack columns on small screens */
+@media (max-width: 600px) {
+  .res_col {
+    flex: 100%;
+}
+    
